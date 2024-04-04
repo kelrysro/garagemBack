@@ -20,7 +20,7 @@ router = DefaultRouter()
 router.register(r"users", UserViewSet, basename="users")
 router.register(r"acessorios", AcessorioViewSet)
 router.register(r"categorias", CategoriaViewSet)
-router.register(r"cores", CorViewSet)
+router.register(r"cores", CorViewSet, )
 router.register(r"marcas", MarcaViewSet,) 
 
 urlpatterns = [
